@@ -1,0 +1,48 @@
+Last login: Sun Sep  4 23:44:01 on ttys000
+chutszkan@TszdeMacBook-Pro learn % git clone git@github.com:kenchudigital/learn-usersystem.git
+Cloning into 'learn-usersystem'...
+warning: You appear to have cloned an empty repository.
+chutszkan@TszdeMacBook-Pro learn % cd learn-regex
+chutszkan@TszdeMacBook-Pro learn-regex % ls
+main.py			readme.md		requirements.txt
+chutszkan@TszdeMacBook-Pro learn-regex % ls -al
+total 40
+drwxr-xr-x   8 chutszkan  staff   256  9  4 23:22 .
+drwxr-xr-x   6 chutszkan  staff   192  9  4 23:44 ..
+drwxr-xr-x  13 chutszkan  staff   416  9  4 23:22 .git
+-rw-r--r--   1 chutszkan  staff   236  9  4 23:08 .gitignore
+drwxr-xr-x   8 chutszkan  staff   256  9  4 23:22 .idea
+-rw-r--r--   1 chutszkan  staff   193  9  4 23:08 main.py
+-rw-r--r--   1 chutszkan  staff  5661  9  4 23:22 readme.md
+-rw-r--r--   1 chutszkan  staff    17  9  4 23:08 requirements.txt
+chutszkan@TszdeMacBook-Pro learn-regex % vim .gitignore
+
+
+
+
+
+env.bak/
+venv.bak/
+.DS_Store
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# json file
+".gitignore" 23L, 236B
+
